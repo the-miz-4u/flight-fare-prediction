@@ -3,6 +3,14 @@ import pandas as pd
 import numpy as np
 import pickle
 
+import gdown
+import os
+
+# Download model if not present
+if not os.path.exists("flight_rf_model.pkl"):
+    url = "https://drive.google.com/uc?id=14hqRLBFueistUCERjS_06nEgAlsC_PEJ"
+    gdown.download(url, "flight_rf_model.pkl", quiet=False)
+
 # ================= PAGE CONFIGURATION =================
 st.set_page_config(
     page_title="Flight Fare Genie",
