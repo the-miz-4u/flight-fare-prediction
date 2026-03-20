@@ -117,7 +117,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ================= HEADER SECTION =================
-st.markdown("<h1 class='main-title'>FLIGHT GENIE</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-title'>FLIGHT FARE PREDICTOR</h1>", unsafe_allow_html=True)
 st.markdown("<p class='sub-title'>PREDICT FLIGHT FARES WITH AI</p>", unsafe_allow_html=True)
 
 # ================= MAIN FORM CONTAINER =================
