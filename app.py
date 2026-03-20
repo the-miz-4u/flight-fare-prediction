@@ -229,6 +229,6 @@ with main_col:
 # ================= FOOTER =================
 st.markdown("""
 <div style='text-align: center; margin-top: 50px; color: #555; font-size: 0.8rem;'>
-    Designed by <b>Pratham</b> (B.Tech CSE)
+    Designed by <b>Manish Sharma</b> (UEM,JAIPUR)
 </div>
 """, unsafe_allow_html=True)
